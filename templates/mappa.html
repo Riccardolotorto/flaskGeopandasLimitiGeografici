@@ -4,12 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Es1</title>
+        <title>Mappa</title>
     </head>
     <body>
-        {%for l in lista%}
-            <p>{{l}}</p>
-        {%endfor%}
-        {{dizionario}}
+        <img src = "static/images/{{immagine}}" height="700" width="900">
+        {{tabella|safe}}
     </body>
 </html>
